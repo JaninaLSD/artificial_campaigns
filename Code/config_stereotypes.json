@@ -1,0 +1,53 @@
+{
+	"stereotype":"s3",
+	"attack_id":"S3_081501",
+	"number_accounts":77,
+	"start":"2021-10-08 20:08:40",
+	"pre_posting":false,
+	"post_posting":false, 
+	"artificial_tweets":"GPT_1.3_climate_Conf_0.8_150_1.0-S3.csv", 
+	"path_to_day":"path_to_original_stream",
+	"path_to_tweets":"path_to_artificial_tweets", 
+	"path_to_save":"path_to_save", 
+	"seed":55, 
+	"number_attacks":{
+		"s1": 1, 
+		"s2": 3, 
+		"s3": 2
+	}, 
+	"duration":{
+		"s1": {"attack1":[1,2]}, 
+		"s2": {
+		"attack1":[12,13],
+		"attack2":[24,25],
+		"attack3":[11,12]
+		}, 
+		"s3": {
+		"attack1":[15,16],
+		"attack2":[147,148]
+		}
+	}, 
+	"number_posts":{
+		"s1": {"attack1":[1,2]}, 
+		"s2": {
+		"attack1":[20,25],
+		"attack2":[25,30],
+		"attack3":[5,10]
+		}, 
+		"s3": {
+		"attack1":[1,2],
+		"attack2":[1,3]
+		}
+	}, "pause":{
+		"s1": {"attack1":[0,1]},
+		"s2": {
+		"attack1":[10,11],
+		"attack2":[27,28],
+		"attack3":[0,1]
+		}, 
+		"s3": {
+		"attack1":[0,1],
+		"attack2":[0,1]
+		}
+	}
+}

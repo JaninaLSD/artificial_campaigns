@@ -2,7 +2,7 @@
 
 ## The model 
 
-You can find our GPT-Neo model in the following Huging Face model repository: https://huggingface.co/Nijana/gpt-neo-1.3B-climate_change_tweets/tree/main. This model is a fine-tuned version of the 1.3B-parameter GPT-Neo model by EleutherAI. 
+You can find our GPT-Neo model in a [Hugging Face model repository](https://huggingface.co/Nijana/gpt-neo-1.3B-climate_change_tweets/tree/main). This model is a fine-tuned version of the 1.3B-parameter GPT-Neo model by EleutherAI. 
 
 As the default GPT-Neo model did not receive any social media data during its pre-training, we fine-tuned it with tweets collected from Twitter from October to November 2021 related to climate change hashtags. The model received data in the format `<username> - <tweet>` We used an 80/20 train/test split, and to differentiate distinct tweets, we added a start-of-tweet and an end-of-tweet token to the training dataset.
 	

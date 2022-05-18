@@ -30,7 +30,8 @@ Please cite the following paper if you are using this model or data:
   title        = {{Artificial Social Media Campaign Creation for Benchmarking and Challenging Detection Approaches}},
   year         = {2022},
   booktitle	   = {{Proceedings of the 16$^{th}$ International Conference on Web and Social Media}},
-  series 	   = {ICWSM'22},
+  booksubtitle = {1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media},
+  series 	   = {NEATCLasS},
   publisher    = {Association for the Advancement of Artificial Intelligence (AAI)},
   address      = {Hybrid: Atlanta, Georgia, US and Online}, 
   numpages 	   = {10}
